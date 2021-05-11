@@ -1,0 +1,273 @@
+html {
+    font-size: 62.5%;
+}
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@keyframes head {
+    0% {background-color: grey;}
+    50% {background-color: black;}
+    
+}
+
+header {
+    display: flex;
+    background-color: black;
+    width: 100%;
+    animation-name: head;
+    animation-duration: 2s;
+}
+
+header img {
+    border-radius: 100rem;
+    margin-top: 2%;
+    margin-left: 6%;
+    margin-bottom: 2%;
+}
+
+@media screen and (max-width:600px) {
+    #logo {height: 15%;
+            width: 15%;}
+}
+
+
+.nav {
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 30%;
+    position: relative;
+    animation-name: navigation;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    
+}
+
+.nav a{
+    text-decoration: none;
+    color: rgb(240, 239, 239);
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+        
+}
+
+
+
+.nav a:hover{
+    color: orangered;
+    background-color: yellow;
+    font-size: x-large;
+    font-weight: 900;
+    height: 4.5rem;
+    border-radius: 100%;
+    
+}
+
+@keyframes navigation {
+    
+    0% {left: -10rem;}
+    100% {left: 0rem}
+   
+}
+
+
+#menu {
+    display: grid;
+    grid-template-areas: "a b c"
+                        /* "d e f" */;
+    font-size: 6rem;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+    gap: 15rem;
+    justify-content: center;        
+}
+
+@media screen and (max-width:680px) {
+    #menu {display: flex;
+        flex-direction: column;
+    align-items: center;
+margin: 1.5rem;
+gap: 7rem;}
+}
+
+
+
+div p{
+
+    font-family: 'Krona One', sans-serif;
+    font-size: 1.3rem;
+    font-weight: bold;
+
+}
+
+#menu:hover {
+    background-color: yellow;
+    border-radius: 75%;
+    margin: auto;
+    margin-top: 10rem;
+    margin-bottom: 20rem;
+    width: 40%;
+    gap: 10rem;
+}
+
+#menu a:hover{
+    color: orangered;
+    
+}
+
+
+#a {
+    grid-area: "a";
+    color: black; 
+    position: relative;
+    margin-left: 1.7rem; 
+     
+}
+
+
+#b {
+    grid-area: "b";
+    color: black; 
+    position: relative;
+    margin-left: 0.5rem;
+    
+    
+}
+
+#c {
+    grid-area: "c";
+    color: black;
+    position: relative;
+    margin-left: 0.5rem;
+     
+}
+
+
+
+/* #d {
+    grid-area: "d";
+    color: black;
+    position: relative;
+    margin-left: 0.8rem;
+}
+
+#e {
+    grid-area: "e";
+    color: black;
+}
+
+
+
+#f {
+    grid-area: "f";
+    color: black;
+    position: relative;
+    margin-left: 0.9rem;
+}
+ */
+
+.nosotros {
+    background-image: url(./img/beer2.png);
+    background-size: 30rem;
+    opacity: 0.8;
+    display: flex;
+    height: 40rem;
+}
+
+.nos {
+    display: flex;
+    font-size: 4rem;
+    border: 2rem solid orangered;
+    font-family: 'Krona One', sans-serif;
+    height: fit-content;
+    position: relative;
+    background-color: whitesmoke;
+    border-radius: 75%;
+    margin-top: 2%;
+    margin-left: 8%;
+    animation: nosotros;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    
+}
+
+@keyframes nosotros {
+    0% {color:orangered}
+    20% {color: yellow}
+    40% {color: red}
+    50% {color:rgb(22, 22, 22)}
+    100%{ color: orangered;}
+}
+
+.nosotros p {
+    font-family: 'Krona One', sans-serif;
+    font-size: 3rem;
+    margin-top: 5rem;
+    text-align: center;
+    color: black;
+    background-color: rgb(243, 238, 231);
+    border-radius: 20rem;
+    padding: 2rem;
+    opacity: 0.8;
+}
+
+@media screen and (max-width:600px) {
+    .nosotros {display: flex;
+    flex-direction: column;
+align-items: center;}
+}
+
+@media screen and (max-width:600px) {
+    .nosotros .parr {font-size: 2rem;}
+}
+
+ 
+footer {
+    background-color: black;
+    display: flex;
+    height: 15rem;
+    justify-content: space-between;
+}
+
+footer p{
+    color: blanchedalmond;
+    display: flex;
+    font-size: 1.5rem;
+    font-family: monospace;
+    margin: 1%;
+    
+}
+
+#insta{
+    font-size: 3rem;
+    display: flex;
+    color: whitesmoke;
+    text-decoration: none;
+    margin-top: 2rem; 
+    margin-right: 8rem;
+}
+
+#insta:hover{
+    color: orangered;
+}
+
+
+#wpp {
+    font-size: 3rem;
+    display: flex;
+    color: whitesmoke;
+    text-decoration: none; 
+    margin-top: 2rem;
+    margin-right: 8rem;
+
+}
+
+#wpp:hover{
+    color: orangered;
+}
+
+
