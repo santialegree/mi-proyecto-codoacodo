@@ -101,21 +101,25 @@ align-items: center;}
 .d {
     grid-area: "d";
     font-family: 'Itim', cursive;
-    font-size: 1.2em;
-    
+    font-size: 1.2rem;
+    width: 35rem;
 }
 
 .e {
     grid-area: "e";
     font-family: 'Itim', cursive;
     font-size: 1.2rem;
+    width: 35rem;
 }
+
 
 .f {
     grid-area: "f";
     font-family: 'Itim', cursive;
     font-size: 1.2rem;
+    width: 35rem;
 }
+
 
 footer {
     background-color: black;
