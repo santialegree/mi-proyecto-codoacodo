@@ -29,8 +29,8 @@ header img {
 }
 
 @media screen and (max-width:600px) {
-    #logo {height: 15%;
-            width: 15%;}
+    #logo {height: 25%;
+            width: 25%;}
 }
 
 .botonarriba {
@@ -40,6 +40,7 @@ header img {
     bottom: 1rem;
     display: inline-block;
     opacity: 0.7;
+    z-index: auto;
 }
   
    
@@ -47,10 +48,12 @@ header img {
 
     font-size: 4rem;
     color: black;
+    z-index: auto;
 }
 
 .botonarriba a:hover{
 color: orangered;
+z-index: auto;
 }
 
 
