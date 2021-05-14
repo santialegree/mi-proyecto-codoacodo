@@ -51,7 +51,7 @@ header img {
 .nav a:hover{
     color: orangered;
     background-color: yellow;
-    font-size: x-large;
+    font-size: 1.5rem;
     font-weight: 900;
     height: 4.5rem;
     border-radius: 100%;
@@ -85,6 +85,33 @@ section h1{
 span {color: red;
 font-style: italic;
 font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    font-family: 'Itim', cursive;
+    width: 60%;
+    margin: auto;
+    padding: 2rem;
+    background-image: url(./img/beer3.png);
+    background-size: 30rem;
+    border-radius: 2rem;
+}
+
+.boton {
+    width: 20%;
+    margin: auto;
+    border-radius: 50%;
+}
+
+.boton:hover {
+    background-color: orangered;
+    box-shadow: 2px 2px 10px whitesmoke;
+
+}
+
 
 footer {
     background-color: black;
