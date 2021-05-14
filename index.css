@@ -47,13 +47,8 @@ header img {
 .botonarriba a {
 
     font-size: 4rem;
-    color: black;
+    color:orangered;
     z-index: auto;
-}
-
-.botonarriba a:hover{
-color: orangered;
-z-index: auto;
 }
 
 
