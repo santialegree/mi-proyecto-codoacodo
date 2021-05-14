@@ -28,6 +28,7 @@ header img {
     #logo {height: 15%;
             width: 15%;}
 }
+
 .nav {
     display: flex;
     margin-left: 60%;
@@ -50,9 +51,9 @@ header img {
 .nav a:hover{
     color: orangered;
     background-color: yellow;
-    font-size: x-large;
+    font-size: 1.5rem;
     font-weight: 900;
-    height: 4.5rem;
+    height: 7rem;
     border-radius: 100%;
     
 }
@@ -63,8 +64,6 @@ header img {
     100% {left: 0rem}
    
 }
-
-
 
 .grid {
     display: grid;
@@ -112,7 +111,6 @@ align-items: center;}
     width: 35rem;
 }
 
-
 .f {
     grid-area: "f";
     font-family: 'Itim', cursive;
@@ -120,6 +118,29 @@ align-items: center;}
     width: 35rem;
 }
 
+@media (max-width:600px) {
+    
+    .d {z-index: initial;
+    position: absolute;
+    margin-top: 25rem;
+    background-color: yellow;
+    color: black;
+ 
+    }
+    
+
+    .e {z-index: initial;
+        position: absolute;
+        margin-top: 55rem;
+        background-color: yellow;
+        color: black;}
+
+    .f {z-index: initial;
+        position: absolute;
+        margin-top: 85rem;
+        background-color: yellow;
+        color: black;
+    }
 
 footer {
     background-color: black;
@@ -164,4 +185,5 @@ footer p{
 #wpp:hover{
     color: orangered;
 }
+
 

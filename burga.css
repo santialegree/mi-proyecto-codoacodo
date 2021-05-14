@@ -51,9 +51,9 @@ header img {
 .nav a:hover{
     color: orangered;
     background-color: yellow;
-    font-size: x-large;
+    font-size: 1.5rem;
     font-weight: 900;
-    height: 4.5rem;
+    height: 7rem;
     border-radius: 100%;
     
 }
@@ -123,6 +123,33 @@ align-items: center;}
     font-size: 1.2rem;
     width: 35rem;
 }
+
+@media (max-width:600px) {
+    
+    .d {z-index: initial;
+    position: absolute;
+    font-size: 1rem;
+    margin-top: 23rem;
+    background-color: yellow;
+    color: black;
+ 
+    }
+    
+
+    .e {z-index: initial;
+        position: absolute;
+        font-size: 1rem;
+        margin-top: 53rem;
+        background-color: yellow;
+        color: black;}
+
+    .f {z-index: initial;
+        position: absolute;
+        font-size: 1rem;
+        margin-top: 86rem;
+        background-color: yellow;
+        color: black;
+    }
 
 footer {
     background-color: black;

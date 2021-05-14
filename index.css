@@ -29,8 +29,8 @@ header img {
 }
 
 @media screen and (max-width:600px) {
-    #logo {height: 25%;
-            width: 25%;}
+    #logo {height: 7rem;
+            width: 7rem;}
 }
 
 .botonarriba {
@@ -69,6 +69,8 @@ z-index: auto;
     animation-timing-function: linear;
     
 }
+
+
 
 .nav a{
     text-decoration: none;
@@ -128,11 +130,10 @@ div p{
 }
 
 #menu:hover {
-    background-color: yellow;
-    border-radius: 75%;
+    
     margin: auto;
     margin-top: 10rem;
-    margin-bottom: 20rem;
+    margin-bottom: 10rem;
     width: 40%;
     gap: 10rem;
 }
@@ -226,10 +227,15 @@ div p{
     100%{ color: orangered;}
 }
 
+@media screen and (max-width: 600px) {
+    .nos {margin: auto;}
+    
+}
+
 .nosotros p {
     font-family: 'Krona One', sans-serif;
     font-size: 3rem;
-    margin-top: 5rem;
+    margin-top: 4rem;
     text-align: center;
     color: black;
     background-color: rgb(243, 238, 231);
@@ -241,7 +247,8 @@ div p{
 @media screen and (max-width:600px) {
     .nosotros {display: flex;
     flex-direction: column;
-align-items: center;}
+align-items: center;
+height: 20%;}
 }
 
 @media screen and (max-width:600px) {
@@ -278,7 +285,6 @@ footer p{
     color: orangered;
 }
 
-
 #wpp {
     font-size: 3rem;
     display: flex;
@@ -291,6 +297,14 @@ footer p{
 
 #wpp:hover{
     color: orangered;
+}
+
+@media screen and (max-width:600px) {
+
+    .cont {display: flex;
+    flex-direction: inherit;
+margin-top: 5rem;
+}   
 }
 
 
