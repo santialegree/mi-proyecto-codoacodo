@@ -156,6 +156,8 @@ align-items: center;}
         color: black;
     }
 
+}
+
     
 footer {
     background-color: black;
@@ -200,4 +202,6 @@ footer p{
 #wpp:hover{
     color: orangered;
 }
+
+
 
