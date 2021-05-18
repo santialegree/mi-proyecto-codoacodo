@@ -16,6 +16,13 @@ header {
 
 }
 
+@media screen and (max-width: 600px) {
+    header {
+        background-size: 10rem;
+    }
+    
+}
+
 
 header img {
     border-radius: 100rem;
@@ -28,7 +35,6 @@ header img {
     #logo {height: 15%;
             width: 15%;}
 }
-
 
 .nav {
     display: flex;
@@ -54,7 +60,7 @@ header img {
     background-color: yellow;
     font-size: 1.5rem;
     font-weight: 900;
-    height: 4.5rem;
+    height: 7rem;
     border-radius: 100%;
     
 }
@@ -66,25 +72,23 @@ header img {
    
 }
 
-
 .grid {
     display: grid;
     grid-template-areas: "a b c"
                         "d e f";
-    margin: auto;
+    margin: 0 auto;
     justify-content: center;
     justify-content: space-between;
     margin-top: 3%;
     margin-left: 1.5%;
     margin-right: 1.5%;
     margin-bottom: 10rem;
-    
 }
 
-@media screen and (max-width:600px){
+@media screen and (min-width: 300px) and (max-width:600px){
     .grid {display: flex;
     flex-direction: column;
-align-items: center;
+align-items: center;}
     
 }
 
@@ -97,20 +101,14 @@ align-items: center;}
 
 .a {
     grid-area: "a";
-      
 }
-
 
 .b {
     grid-area:"b";
-   
 }
-
-
 
 .c {
     grid-area: "c";
-    
 }
 
 .d {
@@ -118,7 +116,6 @@ align-items: center;}
     font-family: 'Itim', cursive;
     font-size: 1.2rem;
     width: 35rem;
-    
 }
 
 .e {
@@ -126,7 +123,6 @@ align-items: center;}
     font-family: 'Itim', cursive;
     font-size: 1.2rem;
     width: 35rem;
-   
 }
 
 .f {
@@ -134,14 +130,13 @@ align-items: center;}
     font-family: 'Itim', cursive;
     font-size: 1.2rem;
     width: 35rem;
-   
 }
 
 @media (max-width:600px) {
     
     .d {z-index: initial;
     position: absolute;
-    margin-top: 23rem;
+    margin-top: 25rem;
     background-color: yellow;
     color: black;
  
@@ -152,16 +147,16 @@ align-items: center;}
         position: absolute;
         margin-top: 55rem;
         background-color: yellow;
-        color: black;
-    }
+        color: black;}
 
     .f {z-index: initial;
         position: absolute;
-        margin-top: 84rem;
+        margin-top: 85rem;
         background-color: yellow;
         color: black;
     }
 
+    
 footer {
     background-color: black;
     display: flex;
@@ -205,4 +200,7 @@ footer p{
 #wpp:hover{
     color: orangered;
 }
+
+
+
 

@@ -16,6 +16,13 @@ header {
 
 }
 
+@media screen and (max-width: 600px) {
+    header {
+        background-size: 10rem;
+    }
+    
+}
+
 
 header img {
     border-radius: 100rem;
@@ -24,7 +31,7 @@ header img {
     margin-bottom: 2%;
 }
 
-@media screen and (max-width:700px) {
+@media screen and (max-width:600px) {
     #logo {height: 15%;
             width: 15%;}
 }
@@ -43,7 +50,7 @@ header img {
 .nav a{
     text-decoration: none;
     color: whitesmoke;
-    font-size: 1.3rem;
+    font-size: 2rem;
     font-family: 'Roboto', sans-serif;
     
 }
@@ -58,18 +65,12 @@ header img {
     
 }
 
-@media screen and (max-width:600px) {
-    .nav {align-items: flex-start;}
-}
-
 @keyframes navigation {
     
     0% {left: -10rem;}
     100% {left: 0rem}
    
 }
-
-
 
 .grid {
     display: grid;
@@ -84,7 +85,7 @@ header img {
     margin-bottom: 10rem;
 }
 
-@media screen and (min-width: 480px) and (max-width:700px){
+@media screen and (min-width: 300px) and (max-width:600px){
     .grid {display: flex;
     flex-direction: column;
 align-items: center;}
@@ -135,8 +136,7 @@ align-items: center;}
     
     .d {z-index: initial;
     position: absolute;
-    font-size: 1rem;
-    margin-top: 23rem;
+    margin-top: 25rem;
     background-color: yellow;
     color: black;
  
@@ -145,21 +145,18 @@ align-items: center;}
 
     .e {z-index: initial;
         position: absolute;
-        font-size: 1rem;
-        margin-top: 53rem;
+        margin-top: 55rem;
         background-color: yellow;
         color: black;}
 
     .f {z-index: initial;
         position: absolute;
-        font-size: 1rem;
-        margin-top: 86rem;
+        margin-top: 85rem;
         background-color: yellow;
         color: black;
     }
 
-
-
+    
 footer {
     background-color: black;
     display: flex;
@@ -203,6 +200,4 @@ footer p{
 #wpp:hover{
     color: orangered;
 }
-
-
 

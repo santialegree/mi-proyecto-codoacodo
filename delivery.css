@@ -71,7 +71,8 @@ header img {
 }
 
 section {
-    background-color: orangered;
+    background-image: url(./img/fondodelo.png);
+    padding: 2rem;
    
 }
 section h1{
