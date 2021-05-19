@@ -240,9 +240,12 @@ div p{
 }
 
 @media screen and (max-width: 700px) {
-    .nos {margin: auto;}
+    .nos {margin: auto;
+    font-size: 2.5rem;
+    border: 1rem solid orangered;}
     
 }
+
 
 .nosotros p {
     font-family: 'Krona One', sans-serif;
@@ -262,6 +265,7 @@ div p{
 align-items: center;
 height: 20%;}
 }
+
 
 @media screen and (min-width:700px) and (max-width:960px) {
     .nosotros {display: flex;
@@ -325,6 +329,6 @@ footer p{
     flex-direction: inherit;
 margin-top: 5rem;
 }   
-}
+
 
 
