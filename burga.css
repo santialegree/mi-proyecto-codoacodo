@@ -38,7 +38,7 @@ header img {
 
 .nav {
     display: flex;
-    margin-left: 60%;
+    margin-left: 50%;
     position: relative;
     align-items: flex-end;
     animation-name: navigation;
@@ -85,7 +85,7 @@ header img {
     margin-bottom: 10rem;
 }
 
-@media screen and (min-width: 300px) and (max-width:600px){
+@media screen and (min-width: 280px) and (max-width:600px){
     .grid {display: flex;
     flex-direction: column;
 align-items: center;}
