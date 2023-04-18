@@ -42,27 +42,22 @@ header img {
     align-items: flex-end;
     animation-name: navigation;
     animation-duration: 2s;
-    animation-timing-function: linear,
-    
-}
-
-.nav a{
+    animation-timing-function: linear;
+  }
+  
+  .nav a {
     text-decoration: none;
-    color: rgb(7, 6, 6);
+    color: whitesmoke;
     font-size: 2rem;
     font-family: 'Roboto', sans-serif;
-    
-}
-
-.nav a:hover{
-    color: orangered;
-    background-color: yellow;
-    font-size: 1.5rem;
-    font-weight: 900;
-    height: 4.5rem;
-    border-radius: 100%;
-    
-}
+  }
+  
+  .nav a:hover {
+    color: red; /* cambio de color de texto a rojo */
+    background-color: violet; /* cambio de color de fondo a violeta */
+    font-size: 2.2rem; /* aumento de tamaño de fuente */
+    border-radius: 10px; /* suavizado de bordes */
+  }
 
 @media screen and (max-width:600px) {
     .nav {align-items: flex-start;}
